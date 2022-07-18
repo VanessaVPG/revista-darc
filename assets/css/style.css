@@ -1,0 +1,12 @@
+@import url("node_modules/@egjs/vue-flicking/dist/flicking.css");
+
+body{
+    background-color: black;
+    color:#FFFFFF;
+}
+.container {
+    width: min(55rem, 100%);
+    padding-inline: 1.25rem;
+    font-family: var(--montserrat);
+      
+  }

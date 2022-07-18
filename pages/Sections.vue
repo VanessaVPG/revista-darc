@@ -21,9 +21,7 @@
                 mulheres-importantes
                 d-flex
                 justify-content-center
-                align-items-center
-              "
-            >
+                align-items-center">
               <h2 class="text-center">
                 MULHERES<br /><span>IMPORTANTES</span>
               </h2>
@@ -197,15 +195,7 @@
             </h1>
           </div>
           <div style="width: 600px; margin-inline: auto" class="pb-5">
-            <iframe
-              style="border-radius: 12px"
-              src="https://open.spotify.com/embed/playlist/16FLAInUWEtgNvKuek7A9l?utm_source=generator&theme=0"
-              width="100%"
-              height="380"
-              frameBorder="0"
-              allowfullscreen=""
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            ></iframe>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0F3K3GsErK9hNB83gXRMzx?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
           </div>
           <BotaoVoltar class="my-5" />
           <h1 class="pt-5 text-right w-50">

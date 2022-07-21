@@ -21,7 +21,9 @@
                 mulheres-importantes
                 d-flex
                 justify-content-center
-                align-items-center">
+                align-items-center
+              "
+            >
               <h2 class="text-center">
                 MULHERES<br /><span>IMPORTANTES</span>
               </h2>
@@ -30,17 +32,17 @@
         </div>
         <div id="menu-linha-do-tempo">
           <NuxtLink to="#linha-do-tempo">
-          <div
-            class="
-              linha-do-tempo
-              d-flex
-              justify-content-center
-              align-items-center
-            "
-          >
-            <h2>LINHA DO<span>TEMPO</span></h2>
-            <div class="shadow l-shadow position-absolute"></div>
-          </div>
+            <div
+              class="
+                linha-do-tempo
+                d-flex
+                justify-content-center
+                align-items-center
+              "
+            >
+              <h2>LINHA DO<span>TEMPO</span></h2>
+              <div class="shadow l-shadow position-absolute"></div>
+            </div>
           </NuxtLink>
         </div>
         <div id="menu-voce-ja-viu">
@@ -63,17 +65,19 @@
           </NuxtLink>
         </div>
         <div id="menu-jogo-e-mundo">
-          <div
-            class="
-              jogo-e-mundo
-              d-flex
-              justify-content-center
-              align-items-center
-            "
-          >
-            <h2>JOGO & <span>MUNDO</span></h2>
-            <div class="shadow j-shadow position-absolute"></div>
-          </div>
+          <NuxtLink to="#jogo-e-mundo">
+            <div
+              class="
+                jogo-e-mundo
+                d-flex
+                justify-content-center
+                align-items-center
+              "
+            >
+              <h2>JOGO & <span>MUNDO</span></h2>
+              <div class="shadow j-shadow position-absolute"></div>
+            </div>
+          </NuxtLink>
         </div>
       </section>
       <BotaoVoltar />
@@ -85,49 +89,147 @@
         </div>
         <Flicking :options="{ circular: true }" :plugins="plugins">
           <div class="mulheres mr-5">
-            <b-img src="~/assets/img/joana.svg"></b-img>
+            <b-img
+              src="~/assets/img/fotos-mulheres-importantes/joana.svg"
+            ></b-img>
             <div class="shadow-foto position-absolute"></div>
           </div>
           <div class="flicking-panel" style="max-width: 300px; height: auto">
             <h1>Joana d'Arc</h1>
             <p class="text-justify mr-5">
-              Não existem muitos dados sobre a vida da esposa de Zumbi dos
-              Palmares. Sua figura é envolta de incertezas. Dizem que viveu no
-              Brasil Colonial e foi descrita como uma guerreira valente, que
-              dominava técnicas de capoeira e teria lutado muitas batalhas para
-              preservar o Quilombo dos Palmares. Inclusive teria auxiliado Zumbi
-              em estratégias e planos de ataque e defesa.
+              Nasceu na França em 1431.Sua breve vida foi evidenciada por
+              diversos títulos, sendo o mais notável o de grande guerreira.
             </p>
             <p class="text-justify mr-5">
-              Não existem muitos dados sobre a vida da esposa de Zumbi dos
-              Palmares. Sua figura é envolta de incertezas. Dizem que viveu no
-              Brasil Colonial e foi descrita como uma guerreira valente, que
-              dominava técnicas de capoeira e teria lutado muitas batalhas para
-              preservar o Quilombo dos Palmares. Inclusive teria auxiliado Zumbi
-              em estratégias e planos de ataque e defesa.
+              Com 17 anos, formou uma pequena guerrilha informal de soldados
+              para a Guerra de 100 anos (1337-1453) em busca da vitória da
+              França contra os Ingleses. Sendo logo depois autorizada
+              oficialmente a lutar pela sua pátria, comandou um batalhão de até
+              7 mil soldados.
             </p>
             <p class="text-justify mr-5">
-              Não existem muitos dados sobre a vida da esposa de Zumbi dos
-              Palmares. Sua figura é envolta de incertezas. Dizem que viveu no
-              Brasil Colonial e foi descrita como uma guerreira valente, que
-              dominava técnicas de capoeira e teria lutado muitas batalhas para
-              preservar o Quilombo dos Palmares. Inclusive teria auxiliado Zumbi
-              em estratégias e planos de ataque e defesa.
+              Sua vida foi terrivelmente abreviada aos seus 19 anos, onde
+              faleceu após ser queimada em uma fogueira.
             </p>
           </div>
           <div class="mulheres mr-5">
-            <b-img src="~/assets/img/joana.svg"></b-img>
+            <b-img
+              src="~/assets/img/fotos-mulheres-importantes/maria-quiteria.png"
+            ></b-img>
             <div class="shadow-foto position-absolute"></div>
           </div>
           <div class="flicking-panel" style="max-width: 300px; height: auto">
-            <h1>Joana d'Arc</h1>
+            <h1>Maria Quitéria de Jesus</h1>
             <p class="text-justify">
-              Não existem muitos dados sobre a vida da esposa de Zumbi dos
-              Palmares. Sua figura é envolta de incertezas. Dizem que viveu no
-              Brasil Colonial e foi descrita como uma guerreira valente, que
-              dominava técnicas de capoeira e teria lutado muitas batalhas para
-              preservar o Quilombo dos Palmares. Inclusive teria auxiliado Zumbi
-              em estratégias e planos de ataque e defesa.
+              Assim como o nome sugere, nasceu no Brasil em 1972. Sua vida não é
+              tão notoriamente conhecida como deveria, mas sua história é
+              incrível.
+            </p>
+            <p class="text-justify">
+              Maria fez parte do Batalhão de Voluntários do Príncipe, na Guerra
+              da Independência, disfarçada de homem, usando o codinome de
+              Soldado Medeiros.
+            </p>
+            <p class="text-justify">
+              Nos últimos anos, teve sua memória condecorada em 1996 como
+              Patrona do Quadro Complementar de Oficiais do Exército e em 2018
+              com seu nome contemplado no Livro dos Heróis da Pátria.
+            </p>
+          </div>
+          <div class="mulheres mr-5">
+            <b-img
+              src="~/assets/img/fotos-mulheres-importantes/dandara.png"
+            ></b-img>
+            <div class="shadow-foto position-absolute"></div>
+          </div>
+          <div class="flicking-panel" style="max-width: 300px; height: auto">
+            <h1>Dandara</h1>
+            <p class="text-justify">
+              Conhecida como a esposa do Zumbi dos Palmares, essa grande
+              personalidade não tem tantas histórias conhecidas.
+            </p>
+            <p class="text-justify">
+              O que se sabe é que ela viveu no período do Brasil Colonial e foi
+              descrita como uma guerreira temível, habilidosa na capoeira teria
+              sido ativa em muitas batalhas para resguardar o Quilombo dos
+              Palmares.
+            </p>
+            <p class="text-justify">
+              Uma verdadeira lenda que virou símbolo da luta das mulheres
+              negras. Dizem que ela se suícidou em 1964, para evitar ser
+              obrigada a retornar como escrava.
+            </p>
+          </div>
+          <div class="mulheres mr-5">
+            <b-img
+              src="~/assets/img/fotos-mulheres-importantes/hedy-lamarr.png"
+            ></b-img>
+            <div class="shadow-foto position-absolute"></div>
+          </div>
+          <div class="flicking-panel" style="max-width: 300px; height: auto">
+            <h1>Hedy Lamarr</h1>
+            <p class="text-justify">
+              Já na era tecnológica tivemos grandes nomes envolvidos, assim como
+              ocorreu com Hedy Lemarr, que foi responsável pela criação de um
+              elaborado aparelho de interferência de rádio, que serviu para
+              bloquear o sistema de inteligência de radares da Alamenha Nazista,
+              o projeto foi patenteado em 1940 e sergiu como base para
+              tecnologias modernas como o Wi-fi e CDMA usada em aparelhos
+              celulares.
+            </p>
+          </div>
+          <div class="mulheres mr-5">
+            <b-img
+              src="~/assets/img/fotos-mulheres-importantes/marie-curie.png"
+            ></b-img>
+            <div class="shadow-foto position-absolute"></div>
+          </div>
+          <div class="flicking-panel" style="max-width: 300px; height: auto">
+            <h1>Marie Curie</h1>
+            <p class="text-justify">
+              Já na era tecnológica tivemos grandes nomes envolvidos, assim como
+              ocorreu com Hedy Lemarr, que foi responsável pela criação de um
+              elaborado aparelho de interferência de rádio, que serviu para
+              bloquear o sistema de inteligência de radares da Alamenha Nazista,
+              o projeto foi patenteado em 1940 e sergiu como base para
+              tecnologias modernas como o Wi-fi e CDMA usada em aparelhos
+              celulares.
+            </p>
+          </div>
+          <div class="mulheres mr-5">
+            <b-img
+              src="~/assets/img/fotos-mulheres-importantes/chimamanda.png"
+            ></b-img>
+            <div class="shadow-foto position-absolute"></div>
+          </div>
+          <div class="flicking-panel" style="max-width: 300px; height: auto">
+            <h1>Chimamanda Ngozi Adichie</h1>
+            <p class="text-justify">
+              Uma grande líder do movimento feminista, Nascida na Nigéria,
+              atualmente é uma das mais importantes escritoras anglófonas (que
+              tem o inglês como língua oficial ou dominante). Atraindo novos
+              leitores jovens para a literatura Sul Africana.
+            </p>
+          </div>
+          <div class="mulheres mr-5">
+            <b-img
+              src="~/assets/img/fotos-mulheres-importantes/marielle.png"
+            ></b-img>
+            <div class="shadow-foto position-absolute"></div>
+          </div>
+          <div class="flicking-panel" style="max-width: 300px; height: auto">
+            <h1>Chimamanda Ngozi Adichie</h1>
+            <p class="text-justify">
+              Foi uma vereadora brasileira assassinada aos 38 anos de idade em
+              uma emboscada no centro da capital fluminense no dia 14 de março
+              de 2018.
+            </p>
+            <p class="text-justify">
+              Socióloga e ativista de direitos humanos, foi presidente da
+              Comissão da Mulher na Câmara do Rio de Janeiro e integrava a
+              comissão que investigava abusos das Forças Armadas e da polícia
+              durante a intervenção federal na área da Segurança Pública do
+              Estado.
             </p>
           </div>
           <span slot="viewport" class="flicking-arrow-prev is-circle"></span>
@@ -150,33 +252,108 @@
           class="pb-5"
         >
           <div class="conteudo">
-            <b-img src="~/assets/img/radioative.png" width="300px"></b-img>
-            <div class="shadow shadow-filmes position-absolute"></div>
+            <iframe
+              width="400"
+              height="382"
+              src="https://www.youtube.com/embed/mU0oOUTo5zo"
+              title="Radioactive – Official U.S. Trailer | Prime Video"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </div>
           <div style="max-width: 400px">
             <h1>Radioatividade</h1>
             <p>
-              Não existem muitos dados sobre a vida da esposa de Zumbi dos
-              Palmares. Sua figura é envolta de incertezas. Dizem que viveu no
-              Brasil Colonial e foi descrita como uma guerreira valente, que
-              dominava técnicas de capoeira e teria lutado muitas batalhas para
-              preservar o Quilombo dos Palmares. Inclusive teria auxiliado Zumbi
-              em estratégias e planos de ataque e defesa.
+              Movida por uma mente brilhante e uma grande paixão, Marie Curie
+              embarca em uma jornada científica com o marido, Pierre, para
+              explicar elementos radioativos até então desconhecidos. Logo se
+              torna evidente que seu trabalho pode levar salvar milhares de
+              vidas se aplicado na medicina - ou destruir bilhões se for usado
+              na guerra.
             </p>
           </div>
           <div class="conteudo">
-            <b-img src="~/assets/img/radioative.png" width="300px"></b-img>
-            <div class="shadow-filmes position-absolute"></div>
+            <iframe
+              width="400"
+              height="382"
+              src="https://www.youtube.com/embed/e88IJJv7PLQ"
+              title="As Sufragistas - Trailer Oficial"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </div>
           <div style="max-width: 400px">
-            <h1>Radioatividade</h1>
+            <h1>As Sufragistas</h1>
             <p>
-              Não existem muitos dados sobre a vida da esposa de Zumbi dos
-              Palmares. Sua figura é envolta de incertezas. Dizem que viveu no
-              Brasil Colonial e foi descrita como uma guerreira valente, que
-              dominava técnicas de capoeira e teria lutado muitas batalhas para
-              preservar o Quilombo dos Palmares. Inclusive teria auxiliado Zumbi
-              em estratégias e planos de ataque e defesa.
+              O início da luta do movimento feminista e os métodos incomuns de
+              batalha. A história das mulheres que enfrentaram seus limites na
+              luta por igualdade e pelo direito de voto. Elas resistiam à
+              opressão de forma passiva, mas, a partir do momento em que
+              começaram a sofrer uma crescente agressão da polícia, decidiram se
+              rebelar publicamente.
+            </p>
+          </div>
+          <div class="conteudo">
+            <iframe
+              width="400"
+              height="382"
+              src="https://www.youtube.com/embed/TSSyU2uEusQ"
+              title="The Handmaid's Tale | Trailer oficial legendado"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div style="max-width: 400px">
+            <h1>The Handmaid's Tale</h1>
+            <p>
+              The Handmaid's Tale (Brasil: O Conto da Aia / Portugal: A História
+              de Uma Serva) é um romance distópico de 1985 da autora canadense
+              Margaret Atwood. Situado na Nova Inglaterra de um futuro próximo,
+              que agora é parte de uma teonomia totalitária fundamentalista
+              cristã que derrubou o governo dos Estados Unidos.
+            </p>
+          </div>
+          <div class="conteudo">
+            <iframe
+              width="400"
+              height="382"
+              src="https://www.youtube.com/embed/KoD1DaIlUng"
+              title="O Gambito da Rainha | Trailer da temporada 01 | Legendado (Brasil) [HD]"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div style="max-width: 400px">
+            <h1>O Gambito da Rainha</h1>
+            <p>
+              Em um orfanato nos anos 1950, uma garota-prodígio do xadrez luta
+              contra o vício em uma jornada improvável para se tornar a número 1
+              do mundo.
+            </p>
+          </div>
+          <div class="conteudo">
+            <iframe
+              width="400"
+              height="382"
+              src="https://www.youtube.com/embed/gi5pXrQhZxQ"
+              title="Coisa Mais Linda | Trailer Oficial [HD] | Netflix"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div style="max-width: 400px">
+            <h1>Coisa Mais Linda</h1>
+            <p>
+              Coisa Mais Linda é focada na personagem Maria Luiza, ou Malu,
+              interpretada por Maria Casadevall, uma paulistana casada, de
+              família rica e com um filho, que se muda para o Rio de Janeiro
+              para abrir um restaurante ao lado do marido. Porém, ao chegar lá,
+              descobre que o rapaz pegou todo o seu dinheiro e fugiu.
             </p>
           </div>
 
@@ -195,7 +372,15 @@
             </h1>
           </div>
           <div style="width: 600px; margin-inline: auto" class="pb-5">
-            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0F3K3GsErK9hNB83gXRMzx?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            <iframe
+              style="border-radius: 12px"
+              src="https://open.spotify.com/embed/playlist/0F3K3GsErK9hNB83gXRMzx?utm_source=generator&theme=0"
+              width="100%"
+              height="380"
+              frameBorder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            ></iframe>
           </div>
           <BotaoVoltar class="my-5" />
           <h1 class="pt-5 text-right w-50">
@@ -209,47 +394,38 @@
               @ready="updateTransform"
               @move="updateTransform"
             >
-              <div class="d-flex mx-auto">
-                <div class="foto-artistas">
-                  <b-img
-                    class="mt-5"
-                    src="~/assets/img/artistas-que-inspiram-1.svg"
-                  ></b-img>
-                </div>
-                <div class="shadow shadow-artistas position-absolute"></div>
-                <div style="max-width: 300px; margin-inline: 30px">
-                  <h1>Joana d’Arc</h1>
-                  <p>
-                    Não existem muitos dados sobre a vida da esposa de Zumbi dos
-                    Palmares. Sua figura é envolta de incertezas. Dizem que
-                    viveu no Brasil Colonial e foi descrita como uma guerreira
-                    valente, que dominava técnicas de capoeira e teria lutado
-                    muitas batalhas para preservar o Quilombo dos Palmares.
-                    Inclusive teria auxiliado Zumbi em estratégias e planos de
-                    ataque e defesa.
-                  </p>
-                </div>
-              </div>
+              
 
               <div class="d-flex mx-auto">
                 <div class="foto-artistas">
                   <b-img
                     class="mt-5"
-                    src="~/assets/img/artistas-que-inspiram-1.svg"
+                    src="~/assets/img/criola.png"
                   ></b-img>
                 </div>
                 <div class="shadow shadow-artistas position-absolute"></div>
                 <div style="max-width: 300px; margin-inline: 30px">
-                  <h1>Joana d’Arc</h1>
-                  <p>
-                    Não existem muitos dados sobre a vida da esposa de Zumbi dos
-                    Palmares. Sua figura é envolta de incertezas. Dizem que
-                    viveu no Brasil Colonial e foi descrita como uma guerreira
-                    valente, que dominava técnicas de capoeira e teria lutado
-                    muitas batalhas para preservar o Quilombo dos Palmares.
-                    Inclusive teria auxiliado Zumbi em estratégias e planos de
-                    ataque e defesa.
-                  </p>
+                  <h1>Tainá Lima (Criola)</h1>
+                   <b-img
+                    class="mt-5"
+                    src="~/assets/img/criola-arte.png"
+                  ></b-img>
+                </div>
+              </div>
+              <div class="d-flex mx-auto">
+                <div class="foto-artistas">
+                  <b-img
+                    class="mt-5"
+                    src="~/assets/img/criola.png"
+                  ></b-img>
+                </div>
+                <div class="shadow shadow-artistas position-absolute"></div>
+                <div style="max-width: 300px; margin-inline: 30px">
+                  <h1>Júlia Leandro Lopes</h1>
+                   <b-img
+                    class="mt-5"
+                    src="~/assets/img/julia-arte.png"
+                  ></b-img>
                 </div>
               </div>
             </Flicking>
@@ -353,9 +529,10 @@
                       border-radius: 100%;
                       background-color: black;
                     "
-                  ></div>
+                  >
+                  <b-img src="~/assets/img/fotos-mulheres-importantes/carol-rossetti.png"></b-img></div>
                   <div class="mt-5 ml-4">
-                    <h2 style="color: black">Joana D'arc</h2>
+                    <h2 style="color: black">Carol Rossetti</h2>
                     <b-img
                       src="~/assets/img/capa-livro.png"
                       width="200px"
@@ -388,11 +565,12 @@
                       border-radius: 100%;
                       background-color: black;
                     "
-                  ></div>
+                  >
+                  <b-img src="~/assets/img/fotos-mulheres-importantes/malala-yousafzai.png"></b-img></div>
                   <div class="mt-5 ml-4">
-                    <h2 style="color: black">Joana D'arc</h2>
+                    <h2 style="color: black">Malala Yousafzai</h2>
                     <b-img
-                      src="~/assets/img/capa-livro.png"
+                      src="~/assets/img/malala-capa.png"
                       width="200px"
                     ></b-img>
                   </div>
@@ -423,363 +601,490 @@
         </div>
       </section>
       <section id="linha-do-tempo">
-        <div class="libras d-flex justify-content-end"><b-img src="~/assets/img/libras-estatico.png"></b-img></div>
+        <div class="libras d-flex justify-content-end">
+          <b-img src="~/assets/img/libras-estatico.png"></b-img>
+        </div>
         <div>
-  <b-tabs content-class="mt-3" justified>
-    <b-tab title="1827" active>
-       <div
-          class="
-            shadow
-            d-flex
-            align-items-center
-            justify-content-center
-            mx-auto
-            w-100
-            pb-5
-            overflow-hidden
-          "
-          style="
-            background-color: #f7134d;
-            border-radius: 40px;
-            z-index: 1;
-            height: 30rem;
-            position: relative;
-          "
-        >
-          <div
-            class="ano font-weight-bolder mr-2"
-            style="width: 120px; font-size: 80px"
-          >
-            <p>18<br />27</p>
-          </div>
-          <div class="texto mr-2" style="max-width: 300px">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse ad
-              mollitia fugiat nobis corrupti veritatis provident ratione amet
-              nostrum nihil delectus minima, similique eligendi natus beatae
-              laborum magnam asperiores aspernatur.
-            </p>
-          </div>
-          <div
-            class="imagem"
-            style="
-              background: black;
-              border-radius: 100%;
-              width: 200px;
-              height: 200px;
-            "
-          ></div>
+          <b-tabs content-class="mt-3" justified>
+            <b-tab title="1827" active>
+              <div
+                class="
+                  shadow
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  mx-auto
+                  w-100
+                  pb-5
+                  overflow-hidden
+                "
+                style="
+                  background-color: #f7134d;
+                  border-radius: 40px;
+                  z-index: 1;
+                  height: 30rem;
+                  position: relative;
+                "
+              >
+                <div
+                  class="ano font-weight-bolder mr-2"
+                  style="width: 120px; font-size: 80px"
+                >
+                  <p>18<br />27</p>
+                </div>
+                <div class="texto mr-2" style="max-width: 300px">
+                  <p>
+                    A primeira conquista das mulheres brasileiras veio com uma lei em 1827, que permitia que meninas finalmente frequentassem colégios e estudassem além da escola primária.
+                  </p>
+                </div>
+                <div
+                  class="imagem"
+                  style="
+                    background: black;
+                    border-radius: 100%;
+                    width: 200px;
+                    height: 200px;
+                  "
+                ></div>
+              </div>
+              <div
+                class="
+                  shadow
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  mx-auto
+                  w-100
+                  pb-5
+                  overflow-hidden
+                "
+                style="
+                  background-color: #2a0f82;
+                  border-radius: 40px;
+                  z-index: 1;
+                  height: 30rem;
+                  position: relative;
+                  margin-top: -100px;
+                "
+              >
+                <div
+                  class="ano font-weight-bolder mr-2"
+                  style="width: 120px; font-size: 80px"
+                >
+                  <p>18<br />32</p>
+                </div>
+                <div class="texto mr-2" style="max-width: 300px">
+                  <p>
+                   O livro é considerado o fundador do feminismo brasileiro. Na obra, a autora reforça que a mulher é tão capaz quanto o homem de assumir cargos de liderança e qualquer outra função.
+Nísia Floresta foi a primeira mulher a denunciar o mito de superioridade do homem publicamente, além de caracterizar as mulheres como seres inteligentes e merecedores de respeito.
+                  </p>
+                </div>
+                <div
+                  class="imagem"
+                  style="
+                    background: black;
+                    border-radius: 100%;
+                    width: 200px;
+                    height: 200px;
+                  "
+                ></div>
+              </div>
+              <div
+                class="
+                  shadow
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  mx-auto
+                  w-100
+                  pb-5
+                  overflow-hidden
+                "
+                style="
+                  background-color: #fed616;
+                  border-radius: 40px;
+                  z-index: 1;
+                  height: 30rem;
+                  position: relative;
+                  margin-top: -100px;
+                "
+              >
+                <div
+                  class="ano font-weight-bolder mr-2"
+                  style="width: 120px; font-size: 80px"
+                >
+                  <p>18<br />52</p>
+                </div>
+                <div class="texto mr-2" style="max-width: 300px">
+                  <p>
+                    Editado por mulheres e direcionado para mulheres, surgiu o Jornal das Senhoras, que afirmava que as pessoas do sexo feminino não deveriam só aprender piano, bordado e costura. Depois disso, outros jornais também apareceram, como o Bello Sexo, em 1862 e O Sexo Feminino, em 1873.
+                  </p>
+                </div>
+                <div
+                  class="imagem"
+                  style="
+                    background: black;
+                    border-radius: 100%;
+                    width: 200px;
+                    height: 200px;
+                  "
+                ></div>
+              </div>
+              <div
+                class="
+                  shadow
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  mx-auto
+                  w-100
+                  pb-5
+                  overflow-hidden
+                "
+                style="
+                  background-color: #4bd4fe;
+                  border-radius: 40px;
+                  z-index: 1;
+                  height: 30rem;
+                  position: relative;
+                  margin-top: -100px;
+                "
+              >
+                <div
+                  class="ano font-weight-bolder mr-2"
+                  style="width: 120px; font-size: 80px"
+                >
+                  <p>18<br />71</p>
+                </div>
+                <div class="texto mr-2" style="max-width: 300px">
+                  <p>
+                    Também conhecida como Lei Rio Branco, a Lei do Ventre Livre, assinada pela Princesa Isabel, determinava que os filhos das mulheres escravizadas na época do Império nasciam livres. A abolição da escravidão só aconteceu em 1888, através da Lei Áurea.
+                  </p>
+                </div>
+                <div
+                  class="imagem"
+                  style="
+                    background: black;
+                    border-radius: 100%;
+                    width: 200px;
+                    height: 200px;
+                  "
+                ></div>
+              </div>
+              <div
+                class="
+                  shadow
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  mx-auto
+                  w-100
+                  pb-5
+                  overflow-hidden
+                "
+                style="
+                  background-color: #2a0f82;
+                  border-radius: 40px;
+                  z-index: 1;
+                  height: 30rem;
+                  position: relative;
+                  margin-top: -100px;
+                "
+              >
+                <div
+                  class="ano font-weight-bolder mr-2"
+                  style="width: 120px; font-size: 80px"
+                >
+                  <p>18<br />79</p>
+                </div>
+                <div class="texto mr-2" style="max-width: 300px">
+                  <p>
+                    Em 19 de abril, um decreto de lei permitiu que mulheres pudessem cursar o ensino superior, assim como já acontecia com os homens. Apesar de estarem dentro da legalidade, muitas enfrentaram preconceito ao ingressar em universidades.
+                  </p>
+                </div>
+                <div
+                  class="imagem"
+                  style="
+                    background: black;
+                    border-radius: 100%;
+                    width: 200px;
+                    height: 200px;
+                  "
+                ></div>
+              </div>
+              <div
+                class="
+                  shadow
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  mx-auto
+                  w-100
+                  pb-5
+                  overflow-hidden
+                "
+                style="
+                  background-color: #2a0f82;
+                  border-radius: 40px;
+                  z-index: 1;
+                  height: 30rem;
+                  position: relative;
+                  margin-top: -100px;
+                "
+              >
+                <div
+                  class="ano font-weight-bolder mr-2"
+                  style="width: 120px; font-size: 80px"
+                >
+                  <p>18<br />85</p>
+                </div>
+                <div class="texto mr-2" style="max-width: 300px">
+                  <p>
+Nesse ano, Chiquinha Gonzaga se tornou a primeira maestrina do Brasil. A compositora também era considerada uma mulher muito à frente do seu tempo e costumava desafiar o machismo e os padrões impostos pela sociedade. Na época, Chiquinha chegou a se separar de um marido que tentou fazê-la desistir da música.                  </p>
+                </div>
+                <div
+                  class="imagem"
+                  style="
+                    background: black;
+                    border-radius: 100%;
+                    width: 200px;
+                    height: 200px;
+                  "
+                ></div>
+              </div>
+              <div
+                class="
+                  shadow
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  mx-auto
+                  w-100
+                  pb-5
+                  overflow-hidden
+                "
+                style="
+                  background-color: #2a0f82;
+                  border-radius: 40px;
+                  z-index: 1;
+                  height: 30rem;
+                  position: relative;
+                  margin-top: -100px;
+                "
+              >
+                <div
+                  class="ano font-weight-bolder mr-2"
+                  style="width: 120px; font-size: 80px"
+                >
+                  <p>18<br />87</p>
+                </div>
+                <div class="texto mr-2" style="max-width: 300px">
+                  <p>
+Rita Lobato Freitas foi a primeira mulher a se formar em medicina no Brasil, pela Faculdade de Medicina da Bahia, além de ser a segunda na América Latina. Mesmo com a lei permitindo o ingresso de mulheres na faculdade, Rita sofreu muito preconceito de pessoas que ainda achavam que estudar era uma rebeldia, “coisa de menino”. Sua tese na conclusão do curso também foi centrada no feminino: a operação cesariana.                  </p>
+                </div>
+                <div
+                  class="imagem"
+                  style="
+                    background: black;
+                    border-radius: 100%;
+                    width: 200px;
+                    height: 200px;
+                  "
+                ></div>
+              </div>
+              <div
+                class="
+                  shadow
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  mx-auto
+                  w-100
+                  pb-5
+                  overflow-hidden
+                "
+                style="
+                  background-color: #2a0f82;
+                  border-radius: 40px;
+                  z-index: 1;
+                  height: 30rem;
+                  position: relative;
+                  margin-top: -100px;
+                "
+              >
+                <div
+                  class="ano font-weight-bolder mr-2"
+                  style="width: 120px; font-size: 80px"
+                >
+                  <p>18<br />88</p>
+                </div>
+                <div class="texto mr-2" style="max-width: 300px">
+                  <p>
+Em 13 de maio de 1888, a Lei Áurea foi assinada pela Princesa Isabel e encerrou o período de escravidão no país, que durou cerca de três séculos.
+Princesa Isabel: primeira senadora brasileira e a primeira mulher a exercer a chefia de Estado no continente americano.                  </p>
+                </div>
+                <div
+                  class="imagem"
+                  style="
+                    background: black;
+                    border-radius: 100%;
+                    width: 200px;
+                    height: 200px;
+                  "
+                ></div>
+              </div>
+              
+                
+            </b-tab>
+            <b-tab title="1910">
+              <div
+                class="
+                  shadow
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  mx-auto
+                  w-100
+                  pb-5
+                  overflow-hidden
+                "
+                style="
+                  background-color: #f7134d;
+                  border-radius: 40px;
+                  z-index: 1;
+                  height: 30rem;
+                  position: relative;
+                "
+              >
+                <div
+                  class="ano font-weight-bolder mr-2"
+                  style="width: 120px; font-size: 80px"
+                >
+                  <p>18<br />27</p>
+                </div>
+                <div class="texto mr-2" style="max-width: 300px">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Esse ad mollitia fugiat nobis corrupti veritatis provident
+                    ratione amet nostrum nihil delectus minima, similique
+                    eligendi natus beatae laborum magnam asperiores aspernatur.
+                  </p>
+                </div>
+                <div
+                  class="imagem"
+                  style="
+                    background: black;
+                    border-radius: 100%;
+                    width: 200px;
+                    height: 200px;
+                  "
+                ></div></div
+            ></b-tab>
+            <b-tab title="2002">
+              <div
+                class="
+                  shadow
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  mx-auto
+                  w-100
+                  pb-5
+                  overflow-hidden
+                "
+                style="
+                  background-color: #f7134d;
+                  border-radius: 40px;
+                  z-index: 1;
+                  height: 30rem;
+                  position: relative;
+                "
+              >
+                <div
+                  class="ano font-weight-bolder mr-2"
+                  style="width: 120px; font-size: 80px"
+                >
+                  <p>18<br />27</p>
+                </div>
+                <div class="texto mr-2" style="max-width: 300px">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Esse ad mollitia fugiat nobis corrupti veritatis provident
+                    ratione amet nostrum nihil delectus minima, similique
+                    eligendi natus beatae laborum magnam asperiores aspernatur.
+                  </p>
+                </div>
+                <div
+                  class="imagem"
+                  style="
+                    background: black;
+                    border-radius: 100%;
+                    width: 200px;
+                    height: 200px;
+                  "
+                ></div></div
+            ></b-tab>
+            <b-tab title="2010">
+              <div
+                class="
+                  shadow
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  mx-auto
+                  w-100
+                  pb-5
+                  overflow-hidden
+                "
+                style="
+                  background-color: #f7134d;
+                  border-radius: 40px;
+                  z-index: 1;
+                  height: 30rem;
+                  position: relative;
+                "
+              >
+                <div
+                  class="ano font-weight-bolder mr-2"
+                  style="width: 120px; font-size: 80px"
+                >
+                  <p>18<br />27</p>
+                </div>
+                <div class="texto mr-2" style="max-width: 300px">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Esse ad mollitia fugiat nobis corrupti veritatis provident
+                    ratione amet nostrum nihil delectus minima, similique
+                    eligendi natus beatae laborum magnam asperiores aspernatur.
+                  </p>
+                </div>
+                <div
+                  class="imagem"
+                  style="
+                    background: black;
+                    border-radius: 100%;
+                    width: 200px;
+                    height: 200px;
+                  "
+                ></div></div
+            ></b-tab>
+          </b-tabs>
         </div>
-       <div
-          class="
-            shadow
-            d-flex
-            align-items-center
-            justify-content-center
-            mx-auto
-            w-100
-            pb-5
-            overflow-hidden
-          "
-          style="
-            background-color: #2A0F82;
-            border-radius: 40px;
-            z-index: 1;
-            height: 30rem;
-            position: relative;
-            margin-top:-100px;
-          "
-        >
-          <div
-            class="ano font-weight-bolder mr-2"
-            style="width: 120px; font-size: 80px"
-          >
-            <p>18<br />27</p>
+      </section>
+      <section id="jogo-e-mundo" class="mt-5" style="width: 100%; height: ">
+        <div class="d-flex">
+          <div class="jogo" style="max-width: 1000px; height: auto">
+            <b-img fluid src="~/assets/img/jogo.png"></b-img>
+            <div class="play position-absolute">
+              <b-button
+                href="https://jogo-quiz-vanessavpg.vercel.app/"
+                class="bg-transparent border-0"
+              >
+                <b-img src="~/assets/img/botao-jogo.svg"></b-img>
+              </b-button>
+            </div>
           </div>
-          <div class="texto mr-2" style="max-width: 300px">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse ad
-              mollitia fugiat nobis corrupti veritatis provident ratione amet
-              nostrum nihil delectus minima, similique eligendi natus beatae
-              laborum magnam asperiores aspernatur.
-            </p>
-          </div>
-          <div
-            class="imagem"
-            style="
-              background: black;
-              border-radius: 100%;
-              width: 200px;
-              height: 200px;
-            "
-          ></div>
         </div>
-               <div
-          class="
-            shadow
-            d-flex
-            align-items-center
-            justify-content-center
-            mx-auto
-            w-100
-            pb-5
-            overflow-hidden
-          "
-          style="
-            background-color: #FED616;
-            border-radius: 40px;
-            z-index: 1;
-            height: 30rem;
-            position: relative;
-            margin-top:-100px;
-          "
-        >
-          <div
-            class="ano font-weight-bolder mr-2"
-            style="width: 120px; font-size: 80px"
-          >
-            <p>18<br />27</p>
-          </div>
-          <div class="texto mr-2" style="max-width: 300px">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse ad
-              mollitia fugiat nobis corrupti veritatis provident ratione amet
-              nostrum nihil delectus minima, similique eligendi natus beatae
-              laborum magnam asperiores aspernatur.
-            </p>
-          </div>
-          <div
-            class="imagem"
-            style="
-              background: black;
-              border-radius: 100%;
-              width: 200px;
-              height: 200px;
-            "
-          ></div>
-        </div>
-        <div
-          class="
-            shadow
-            d-flex
-            align-items-center
-            justify-content-center
-            mx-auto
-            w-100
-            pb-5
-            overflow-hidden
-          "
-          style="
-            background-color: #4BD4FE;
-            border-radius: 40px;
-            z-index: 1;
-            height: 30rem;
-            position: relative;
-            margin-top:-100px;
-          "
-        >
-          <div
-            class="ano font-weight-bolder mr-2"
-            style="width: 120px; font-size: 80px"
-          >
-            <p>18<br />27</p>
-          </div>
-          <div class="texto mr-2" style="max-width: 300px">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse ad
-              mollitia fugiat nobis corrupti veritatis provident ratione amet
-              nostrum nihil delectus minima, similique eligendi natus beatae
-              laborum magnam asperiores aspernatur.
-            </p>
-          </div>
-          <div
-            class="imagem"
-            style="
-              background: black;
-              border-radius: 100%;
-              width: 200px;
-              height: 200px;
-            "
-          ></div>
-        </div>
-               <div
-          class="
-            shadow
-            d-flex
-            align-items-center
-            justify-content-center
-            mx-auto
-            w-100
-            pb-5
-            overflow-hidden
-          "
-          style="
-            background-color: #2A0F82;
-            border-radius: 40px;
-            z-index: 1;
-            height: 30rem;
-            position: relative;
-            margin-top:-100px;
-          "
-        >
-          <div
-            class="ano font-weight-bolder mr-2"
-            style="width: 120px; font-size: 80px"
-          >
-            <p>18<br />27</p>
-          </div>
-          <div class="texto mr-2" style="max-width: 300px">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse ad
-              mollitia fugiat nobis corrupti veritatis provident ratione amet
-              nostrum nihil delectus minima, similique eligendi natus beatae
-              laborum magnam asperiores aspernatur.
-            </p>
-          </div>
-          <div
-            class="imagem"
-            style="
-              background: black;
-              border-radius: 100%;
-              width: 200px;
-              height: 200px;
-            "
-          ></div>
-        </div>
-    </b-tab>
-    <b-tab title="1910"> <div
-          class="
-            shadow
-            d-flex
-            align-items-center
-            justify-content-center
-            mx-auto
-            w-100
-            pb-5
-            overflow-hidden
-          "
-          style="
-            background-color: #f7134d;
-            border-radius: 40px;
-            z-index: 1;
-            height: 30rem;
-            position: relative;
-          "
-        >
-          <div
-            class="ano font-weight-bolder mr-2"
-            style="width: 120px; font-size: 80px"
-          >
-            <p>18<br />27</p>
-          </div>
-          <div class="texto mr-2" style="max-width: 300px">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse ad
-              mollitia fugiat nobis corrupti veritatis provident ratione amet
-              nostrum nihil delectus minima, similique eligendi natus beatae
-              laborum magnam asperiores aspernatur.
-            </p>
-          </div>
-          <div
-            class="imagem"
-            style="
-              background: black;
-              border-radius: 100%;
-              width: 200px;
-              height: 200px;
-            "
-          ></div>
-        </div></b-tab>
-    <b-tab title="2002"> <div
-          class="
-            shadow
-            d-flex
-            align-items-center
-            justify-content-center
-            mx-auto
-            w-100
-            pb-5
-            overflow-hidden
-          "
-          style="
-            background-color: #f7134d;
-            border-radius: 40px;
-            z-index: 1;
-            height: 30rem;
-            position: relative;
-          "
-        >
-          <div
-            class="ano font-weight-bolder mr-2"
-            style="width: 120px; font-size: 80px"
-          >
-            <p>18<br />27</p>
-          </div>
-          <div class="texto mr-2" style="max-width: 300px">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse ad
-              mollitia fugiat nobis corrupti veritatis provident ratione amet
-              nostrum nihil delectus minima, similique eligendi natus beatae
-              laborum magnam asperiores aspernatur.
-            </p>
-          </div>
-          <div
-            class="imagem"
-            style="
-              background: black;
-              border-radius: 100%;
-              width: 200px;
-              height: 200px;
-            "
-          ></div>
-        </div></b-tab>
-    <b-tab title="2010"> <div
-          class="
-            shadow
-            d-flex
-            align-items-center
-            justify-content-center
-            mx-auto
-            w-100
-            pb-5
-            overflow-hidden
-          "
-          style="
-            background-color: #f7134d;
-            border-radius: 40px;
-            z-index: 1;
-            height: 30rem;
-            position: relative;
-          "
-        >
-          <div
-            class="ano font-weight-bolder mr-2"
-            style="width: 120px; font-size: 80px"
-          >
-            <p>18<br />27</p>
-          </div>
-          <div class="texto mr-2" style="max-width: 300px">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse ad
-              mollitia fugiat nobis corrupti veritatis provident ratione amet
-              nostrum nihil delectus minima, similique eligendi natus beatae
-              laborum magnam asperiores aspernatur.
-            </p>
-          </div>
-          <div
-            class="imagem"
-            style="
-              background: black;
-              border-radius: 100%;
-              width: 200px;
-              height: 200px;
-            "
-          ></div>
-        </div></b-tab>
-  </b-tabs>
-</div>
-       
-       
       </section>
     </main>
   </div>
@@ -1076,6 +1381,10 @@ span.circulo {
 .jogo-e-mundo h2 {
   font-size: 20px;
 }
+.play {
+  left: calc(100vw - 56%);
+  margin-top: -7rem;
+}
 .j-shadow {
   width: 11.25rem;
   height: 11.25rem;
@@ -1099,8 +1408,8 @@ span.circulo {
   animation-duration: 8s, 5s, 5s, 10s;
   animation-iteration-count: infinite;
 }
-.jogo-e-mundo{
-   height: 11.25rem;
+.jogo-e-mundo {
+  height: 11.25rem;
   width: 11.25rem;
   background: #f7134d;
   border-radius: 100%;
